@@ -23,11 +23,6 @@ namespace oopPreLab2SON
             form3.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
             adminSettings frm = new adminSettings();
@@ -38,6 +33,12 @@ namespace oopPreLab2SON
         {
             profil frm = new profil();
             frm.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            about frm = new about();
+            frm.ShowDialog();
         }
     }
 }
