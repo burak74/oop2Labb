@@ -57,4 +57,33 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="ımageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="ımageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAEZTeXN0ZW0uV2luZG93cy5Gb3JtcywgQ3VsdHVyZT1uZXV0cmFs
+        LCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAmU3lzdGVtLldpbmRvd3MuRm9ybXMu
+        SW1hZ2VMaXN0U3RyZWFtZXIBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAqgMAAAJNU0Z0AUkBTAIBAQMB
+        AAE4AQABOAEAARABAAEQAQAE/wEhAQAI/wFCAU0BNgcAATYDAAEoAwABQAMAARADAAEBAQABIAYAARAS
+        AEz/Az81/wM/Kf8DSwH/Az8J/0AATP8DPwH/Az8B/wM/Af8DPwH/Az8B/wM/Af8DPwH/Az8B/wM/Af8D
+        PwH/Az8B/wM/Cf8DPwH/Az8B/wM/Af8DPw3/A1cB/wM/Af8DPwH/Az8B/wM/Af8DPwn/QAAY/wM/Af8D
+        PwH/Az8B/wM/Af8DPyH/Az8B/wM/Af8DPwH/Az8B/wM/Af8DPwH/Az8B/wNAAf8DPwH/Az8B/wM/Af8D
+        EAn/Az8B/wM/Af8DPwH/Az8B/wNAAf8DPwH/Az8B/wM/Af8DPwH/Az8B/wM/Af8DPwH/Az8B/wM/Bf9A
+        ABT/Az8B/wM/Af8DPwH/Az8B/wNAAf8DPyH/Az8p/wMQAf8D5AX/Az8B/wM/Cf8DQAH/Az8B/wM/Af8D
+        PxH/Az8J/0AAFP8DPxH/Az8B/wM/Hf8DPyn/AxAB/wM/Cf8DPyX/Az8B/wM/Cf9AABD/Az8B/wNAFf8D
+        Px3/Az8p/wM/Af8DPwn/Az8B/wM/If8DPw3/QAAQ/wM/Gf8DPx3/Az8p/wM/Af8DPw3/Az8d/wM/Af8D
+        Pw3/QAAQ/wM/Gf8DPx3/Az8p/wMQAf8DPw3/Az8d/wM/Ef9AABD/Az8Z/wM/Hf8DPyn/AxAR/wM/Af8D
+        PxX/Az8B/wM/Ef9AABD/Az8Z/wM/Hf8DPyn/AxAV/wM/Ff8DPxX/QAAQ/wM/Gf8DPx3/Az8p/wMQFf8D
+        PwH/Az8N/wM/Af8DPxX/QAAQ/wM/Ff8DUQH/Az8d/wM/Kf8DEBn/Az8J/wPnAf8DPxn/QAAQ/wNIAf8D
+        PxH/AzYB/wNtHf8DPxn/A9sB/wPbAf8DPwH/Az8B/wMQGf8DPwn/Az8B/wM/Gf9AABT/Az8B/wM/Af8D
+        5wH/Az8B/wM/Af8DPyH/Az8B/wM/Af8DPwH/Az8B/wM/Af8DPwH/Az8B/wM/Af8DPwH/Az8B/wM/Af8D
+        EBn/Az8B/wM/Af8DPwH/Az8d/0AAGP8DPwH/A0AB/wM/Af8DPyX/Az8B/wM/Af8DPwH/Az8B/wM/Af8D
+        PwH/A0cB/wNLAf8DSwX/A7AB/wNMHf8DOQH/Az8h/0AAHP8DP3n/Az8l/0AAAUIBTQE+BwABPgMAASgD
+        AAFAAwABEAMAAQEBAAEBBQABgBcAA/+BAAs=
+</value>
+  </data>
+  <metadata name="ımageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 17</value>
+  </metadata>
 </root>

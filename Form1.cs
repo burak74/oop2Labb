@@ -16,10 +16,6 @@ namespace oopPreLab2SON
         OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.Ace.OleDb.12.0; Data Source = kullaniciBilgileri.accdb");
         public static string id, password, nameSurname, tel, adress, city, country, email, yetki;
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -32,11 +28,6 @@ namespace oopPreLab2SON
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            
         }
 
         private void textBox1_Click(object sender, EventArgs e)
@@ -52,13 +43,12 @@ namespace oopPreLab2SON
         private void button1_Click(object sender, EventArgs e)
         {
             baglanti.Open();
-            OleDbCommand sorgu = new OleDbCommand("select *from KullaniciBilgiler",baglanti);
+            OleDbCommand sorgu = new OleDbCommand("select *from KullaniciBilgiler", baglanti);
             OleDbDataReader oku = sorgu.ExecuteReader();
-            while (oku.Read()==true)
+            while (oku.Read() == true)
             {
-                if(oku["kullaniciAdi"].ToString()==textBox1.Text && oku["sifre"].ToString() == textBox2.Text && oku["yetki"].ToString()== "admin")
+                if (oku["kullaniciAdi"].ToString() == textBox1.Text && oku["sifre"].ToString() == textBox2.Text && oku["yetki"].ToString() == "admin")
                 {
-                    check = true;
                     id = oku.GetValue(0).ToString();
                     nameSurname = oku.GetValue(1).ToString();
                     tel = oku.GetValue(2).ToString();
@@ -89,12 +79,10 @@ namespace oopPreLab2SON
                     mainScreen mainScreen = new mainScreen();
                     mainScreen.Show();
                     mainScreen.button3.Visible = false;
-                    
                     this.Hide();
                     break;
                 }
             }
-            baglanti.Close();
         }
     }
 }
