@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>oopPreLab2SON</id>
+    <version>1.0.0</version>
+    <authors>oopPreLab2SON</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0-windows7.0">
+        <dependency id="System.Data.OleDb" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.3" exclude="Build,Analyzers" />
+        <dependency id="System.IO.Ports" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Burak74\source\repos\oopPreLab2SON\oopPreLab2\bin\Debug\net5.0-windows\oopPreLab2SON.runtimeconfig.json" target="lib\net5.0-windows7.0\oopPreLab2SON.runtimeconfig.json" />
+    <file src="C:\Users\Burak74\source\repos\oopPreLab2SON\oopPreLab2\bin\Debug\net5.0-windows\oopPreLab2SON.dll" target="lib\net5.0-windows7.0\oopPreLab2SON.dll" />
+  </files>
+</package>

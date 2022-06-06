@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Burak74\\source\\repos\\oopPreLab2SON\\oopPreLab2SON\\oopPreLab2SON.csproj": {}
+    "C:\\Users\\Burak74\\source\\repos\\oopPreLab2SON\\oopPreLab2\\oopPreLab2SON.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Burak74\\source\\repos\\oopPreLab2SON\\oopPreLab2SON\\oopPreLab2SON.csproj": {
+    "C:\\Users\\Burak74\\source\\repos\\oopPreLab2SON\\oopPreLab2\\oopPreLab2SON.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Burak74\\source\\repos\\oopPreLab2SON\\oopPreLab2SON\\oopPreLab2SON.csproj",
+        "projectUniqueName": "C:\\Users\\Burak74\\source\\repos\\oopPreLab2SON\\oopPreLab2\\oopPreLab2SON.csproj",
         "projectName": "oopPreLab2SON",
-        "projectPath": "C:\\Users\\Burak74\\source\\repos\\oopPreLab2SON\\oopPreLab2SON\\oopPreLab2SON.csproj",
+        "projectPath": "C:\\Users\\Burak74\\source\\repos\\oopPreLab2SON\\oopPreLab2\\oopPreLab2SON.csproj",
         "packagesPath": "C:\\Users\\Burak74\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Burak74\\source\\repos\\oopPreLab2SON\\oopPreLab2SON\\obj\\",
+        "outputPath": "C:\\Users\\Burak74\\source\\repos\\oopPreLab2SON\\oopPreLab2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -50,6 +50,10 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.3, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [

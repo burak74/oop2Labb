@@ -174,7 +174,6 @@ namespace oopPreLab2SON
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(67, 19);
             this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Custom";
             this.radioButton4.UseVisualStyleBackColor = true;
             this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
@@ -186,7 +185,6 @@ namespace oopPreLab2SON
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(51, 19);
             this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Hard";
             this.radioButton3.UseVisualStyleBackColor = true;
             this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged_1);
@@ -194,6 +192,7 @@ namespace oopPreLab2SON
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
+            this.radioButton2.Checked = true;
             this.radioButton2.Location = new System.Drawing.Point(66, 23);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(62, 19);
@@ -210,7 +209,6 @@ namespace oopPreLab2SON
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(48, 19);
             this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Easy";
             this.radioButton1.UseVisualStyleBackColor = true;
             this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged_1);
@@ -253,6 +251,8 @@ namespace oopPreLab2SON
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox1.Location = new System.Drawing.Point(6, 22);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(69, 19);

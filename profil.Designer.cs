@@ -48,6 +48,7 @@ namespace oopPreLab2SON
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -56,7 +57,6 @@ namespace oopPreLab2SON
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -132,6 +132,7 @@ namespace oopPreLab2SON
             // 
             this.textBox2.Location = new System.Drawing.Point(99, 47);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(100, 23);
             this.textBox2.TabIndex = 3;
             // 
@@ -203,6 +204,17 @@ namespace oopPreLab2SON
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "My Informations";
             this.groupBox1.Visible = false;
+            
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(6, 255);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(193, 23);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "SetMyInfo";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label8
             // 
@@ -266,7 +278,6 @@ namespace oopPreLab2SON
             this.label2.Size = new System.Drawing.Size(57, 15);
             this.label2.TabIndex = 12;
             this.label2.Text = "Password";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -276,16 +287,6 @@ namespace oopPreLab2SON
             this.label1.Size = new System.Drawing.Size(18, 15);
             this.label1.TabIndex = 11;
             this.label1.Text = "ID";
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(6, 255);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(193, 23);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "SetMyInfo";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // profil
             // 

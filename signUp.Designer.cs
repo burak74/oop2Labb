@@ -133,6 +133,7 @@ namespace oopPreLab2SON
             // 
             this.textBox2.Location = new System.Drawing.Point(135, 67);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(100, 23);
             this.textBox2.TabIndex = 9;
             // 
@@ -141,49 +142,49 @@ namespace oopPreLab2SON
             this.textBox3.Location = new System.Drawing.Point(135, 100);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 23);
-            this.textBox3.TabIndex = 11;
+            this.textBox3.TabIndex = 10;
             // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(135, 135);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 23);
-            this.textBox4.TabIndex = 10;
+            this.textBox4.TabIndex = 11;
             // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(135, 169);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 23);
-            this.textBox5.TabIndex = 13;
+            this.textBox5.TabIndex = 12;
             // 
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(135, 203);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 23);
-            this.textBox6.TabIndex = 12;
+            this.textBox6.TabIndex = 13;
             // 
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(135, 238);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 23);
-            this.textBox7.TabIndex = 15;
+            this.textBox7.TabIndex = 14;
             // 
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(135, 271);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 23);
-            this.textBox8.TabIndex = 14;
+            this.textBox8.TabIndex = 15;
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(135, 329);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 16;
+            this.button1.TabIndex = 17;
             this.button1.Text = "Sign Up";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -193,7 +194,7 @@ namespace oopPreLab2SON
             this.textBox9.Location = new System.Drawing.Point(135, 300);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(100, 23);
-            this.textBox9.TabIndex = 18;
+            this.textBox9.TabIndex = 16;
             // 
             // label9
             // 

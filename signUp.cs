@@ -23,7 +23,7 @@ namespace oopPreLab2SON
         private void button1_Click(object sender, EventArgs e)
         {
             baglanti.Open();
-            OleDbCommand komut = new OleDbCommand("insert into KullaniciBilgiler (kullaniciAdi, sifre, name_surname, phoneNumber, adress, city, country, email, yetki) values ('"+textBox1.Text.ToString()+ "','" + textBox2.Text.ToString() +"','"+textBox3.Text.ToString()+ "','" + textBox4.Text.ToString() + "','" + textBox5.Text.ToString() + "','" + textBox6.Text.ToString() + "','" + textBox7.Text.ToString() + "','" + textBox8.Text.ToString() + "','" + textBox9.Text.ToString() + "')",baglanti);
+            OleDbCommand komut = new OleDbCommand("insert into kullaniciBilgileri (kullaniciAdi, sifre, name_surname, phoneNumber, adress, city, country, email, yetki) values ('"+textBox1.Text.ToString()+ "','" + textBox2.Text.ToString() +"','"+textBox3.Text.ToString()+ "','" + textBox4.Text.ToString() + "','" + textBox5.Text.ToString() + "','" + textBox6.Text.ToString() + "','" + textBox7.Text.ToString() + "','" + textBox8.Text.ToString() + "','" + textBox9.Text.ToString() + "')",baglanti);
             komut.ExecuteNonQuery();
             baglanti.Close();
             this.Hide();

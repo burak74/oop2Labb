@@ -37,6 +37,7 @@ namespace oopPreLab2SON.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("PaleGoldenrod")]
         public global::System.Drawing.Color Color2 {
             get {
                 return ((global::System.Drawing.Color)(this["Color2"]));
@@ -48,6 +49,7 @@ namespace oopPreLab2SON.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Green")]
         public global::System.Drawing.Color Color3 {
             get {
                 return ((global::System.Drawing.Color)(this["Color3"]));
@@ -71,7 +73,7 @@ namespace oopPreLab2SON.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
         public bool Difficulty2 {
             get {
                 return ((bool)(this["Difficulty2"]));
@@ -107,7 +109,7 @@ namespace oopPreLab2SON.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        [global::System.Configuration.DefaultSettingValueAttribute("5")]
         public int Custom1 {
             get {
                 return ((int)(this["Custom1"]));
@@ -119,7 +121,7 @@ namespace oopPreLab2SON.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        [global::System.Configuration.DefaultSettingValueAttribute("5")]
         public int Custom2 {
             get {
                 return ((int)(this["Custom2"]));
@@ -162,6 +164,42 @@ namespace oopPreLab2SON.Properties {
             }
             set {
                 this["Shape3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool host {
+            get {
+                return ((bool)(this["host"]));
+            }
+            set {
+                this["host"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ip {
+            get {
+                return ((string)(this["ip"]));
+            }
+            set {
+                this["ip"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int port {
+            get {
+                return ((int)(this["port"]));
+            }
+            set {
+                this["port"] = value;
             }
         }
     }

@@ -39,16 +39,15 @@ namespace oopPreLab2SON
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(146, 80);
+            this.textBox1.Location = new System.Drawing.Point(71, 12);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 23);
             this.textBox1.TabIndex = 0;
             this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(146, 140);
+            this.textBox2.Location = new System.Drawing.Point(71, 72);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(100, 23);
@@ -57,7 +56,7 @@ namespace oopPreLab2SON
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(171, 193);
+            this.button1.Location = new System.Drawing.Point(96, 125);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -68,7 +67,7 @@ namespace oopPreLab2SON
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(79, 83);
+            this.label1.Location = new System.Drawing.Point(4, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 15);
             this.label1.TabIndex = 3;
@@ -77,7 +76,7 @@ namespace oopPreLab2SON
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(79, 143);
+            this.label2.Location = new System.Drawing.Point(4, 75);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 15);
             this.label2.TabIndex = 4;
@@ -85,7 +84,7 @@ namespace oopPreLab2SON
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(171, 222);
+            this.button2.Location = new System.Drawing.Point(96, 154);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 5;
@@ -98,7 +97,8 @@ namespace oopPreLab2SON
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::oopPreLab2SON.Properties.Resources.welcome;
+            this.ClientSize = new System.Drawing.Size(227, 282);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -107,7 +107,6 @@ namespace oopPreLab2SON
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

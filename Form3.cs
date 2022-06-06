@@ -25,7 +25,6 @@ namespace oopPreLab2SON
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            
             label1.ForeColor = Properties.Settings.Default.Color1;
             label2.ForeColor = Properties.Settings.Default.Color2;
             label3.ForeColor = Properties.Settings.Default.Color3;
@@ -66,8 +65,6 @@ namespace oopPreLab2SON
             {
                 custom1 = int.Parse(textBox1.Text);
                 Properties.Settings.Default.Custom1 = custom1;
-               
-                
             }
             catch
             {
@@ -234,7 +231,7 @@ namespace oopPreLab2SON
         {
             try
             {
-                custom1 = Int32.Parse(textBox1.Text);
+                custom1 = int.Parse(textBox1.Text);
                 Properties.Settings.Default.Custom1 = custom1;
 
 
@@ -257,7 +254,7 @@ namespace oopPreLab2SON
         {
             try
             {
-                custom2 = Int32.Parse(textBox2.Text);
+                custom2 = int.Parse(textBox2.Text);
                 Properties.Settings.Default.Custom2 = custom2;
 
             }
